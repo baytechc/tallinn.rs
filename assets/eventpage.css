@@ -81,7 +81,6 @@ a:not(:hover) {
 
 .events form > input,
 .events form > button {
-  width: 14em;
   height: 2.5em;
   text-align: center;
   border-radius: .5em;
