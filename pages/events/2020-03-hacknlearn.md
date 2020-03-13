@@ -1,3 +1,9 @@
+---
+layout: base-layout.njk
+section: events
+title: Rust Tallinn Hack'n'learn — March 13, 2020
+---
+
 <!-- place this in the head of your document -->
 <script src="https://js.tito.io/v1" async></script>
 
