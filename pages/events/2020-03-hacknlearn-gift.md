@@ -3,7 +3,7 @@ layout: base-layout.njk
 section: events
 title: Claim your gift! Rust Tallinn Hack'n'learn — March 13, 2020
 ---
-<form id="gift" onsubmit="window.open(`https://baytech.community/rusttallinn/march-2020-hnl/wolt-gip8ybs6/${document.forms.gift.tito.value}.pdf`); return false">
+<form id="gift" onsubmit="window.open(`https://baytech.community/rusttallinn/march-2020-hnl/wolt-gip8ybs6/${document.forms.gift.tito.value.toUpperCase()}.pdf`); return false">
 
 <img alt="Pizza Ferris" src="/assets/events/2020-03-hacknlearn/hnl-ferris.svg" style="margin: -10% auto;" />
 
