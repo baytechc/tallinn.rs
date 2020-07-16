@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 section: events
-title: Rust Tallinn Hack'n'learn — March 13, 2020
+title: Rust Tallinn Hack'n'Learn — July 29, 2020
 ---
 
 <!-- place this in the head of your document -->
