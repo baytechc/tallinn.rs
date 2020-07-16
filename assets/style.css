@@ -22,16 +22,79 @@ a:visited {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+
+  background: linear-gradient(white, skyblue, green, darkgreen);
+}
+.opening main {
+  background: linear-gradient(transparent, #54dfff 30vh, #98d765 30vh, transparent);
+}
+.opening img {
+  height: 38vh;
+  object-position: bottom;
+  max-width: 90%;
+  object-fit: contain;
 }
 .opening h1 {
   font-family: 'Pacifico';
   font-size: 6vw;
-  font-size: max(6vw, 3em)
+  font-size: max(6vw, 3rem);
+  color: white;
+  text-shadow: .04em .08em #baf;
+  margin: .5em 0;
 }
 
 .opening h2 {
-  font-weight: normal;
+  font-weight: bold;
 
-  font-size: 4vw;
-  font-size: max(4vw, 2em);
+  font-size: 3vw;
+  font-size: max(3vw, 2rem);
+
+  background: #db3b03;
+  color: white;
+
+  padding: .6em;
+}
+
+.opening a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: .1em;
+}
+.opening h2 a {
+  display: block;
+}
+.opening h2 a:hover, .opening h2 a:focus {
+  text-shadow: .05em .05em #600;
+}
+
+.opening ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'Pacifico';
+  list-style-type: none;
+  font-size: 2rem;
+  gap: 1em;
+
+  color: white;
+  padding: 0;
+}
+
+.opening ul a:hover, .opening ul a:focus {
+  text-shadow: .04em .08em #a8f;
+}
+
+.opening ul li {
+  white-space: nowrap;
+}
+@media (max-width: 30rem) {
+  .opening ul li {
+    min-width: 90vw;
+  }
+}
+
+a:focus {
+  outline: thick dashed yellow;
 }
